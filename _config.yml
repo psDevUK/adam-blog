@@ -1,9 +1,8 @@
-title: My personal blog - Adam Neilson
-email: your-email@domain.com
+title: Powershell Universal Dashboard Blog - psdevuk
+email: adambacon1@hotmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Awesome solutions to any given problem, being solved by the use of powershell universal dashboard
+  my personal journey with this amazing piece of software.
 permalink: ':title/'
 baseurl: "/adam-blog" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
@@ -11,24 +10,21 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # Author settings
 author: Adam Bacon # add your name
 author-pic: adam-face.jpg
-about-author: My name is Adam Neilson. I’m a full-time adventure travel blogger and photographer who’s been exploring the world for over 2 years.
+about-author: My name is Adam Bacon. I’m a full-time I.T employee, I use my knowledge of powershell and databases to solve most of the tasks I am presented with. I then place these solutions in a web interface using Powershell Universal Dashboard. This enables me to create my own web-applications with ease to solve a wide variety of problems.
 
 # Contact links
-email: # Add your Email address
-phone: # Add your Phone number
-website: # Add your website, do not add http://
-linkedin: # Add your Linkedin handle
-github: artemsheludko # Add your Github handle
-twitter: '@artemsheludko_' # Add your Twitter handle
-facebook: # Add your Facebook handle
-instagram: # Add your Instagram handle
-pinterest: # Add your Pinterest handle
+email: adambacon1@hotmail.com # Add your Email address
+website: https://github.com/psDevUK # Add your website, do not add http://
+linkedin: 'adam-bacon-993009100/' # Add your Linkedin handle
+github: psdevuk # Add your Github handle
+twitter: '@psdevuk' # Add your Twitter handle
+
 
 # Newsletter
 mailchimp: # Add your MailChimp form identifier.
 
 # Disqus
-discus_identifier: mr-brown # Add your discus identifier
+discus_identifier: powershell-universaldashboard # Add your discus identifier
 
 # Tracker
 analytics: # Google Analytics
@@ -47,5 +43,3 @@ plugins:
 
 include: [_pages]
 exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock", "package-lock.json", "assets/css/sass/"]
-
-theme: jekyll-theme-cayman
